@@ -9,7 +9,12 @@ Output:
 """
 list1 = [1,2,3,4,5,6]
 list2=[]
+"""
 for i in list1:
     s=0
-    fo
-
+    for l in range(1,i+1,):
+        s=s+l
+    list2.append(s)    
+print(list2)    
+"""
+#shortcurt
