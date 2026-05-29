@@ -9,3 +9,11 @@ like wise for all other elememts.
 """
 
 list1=[2,4,6,10,1]
+list2=[]
+for i in list1:
+      s=i
+      for l in list1:
+          if(l>i):
+           s=s+l
+      list2.append(s)      
+print(list2)      
