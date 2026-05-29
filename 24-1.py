@@ -1,0 +1,16 @@
+""" ###Problem 1: Combine two lists index-wise(columns wise)Write a program to add two lists index-wise. Create a new list that contains the 0th index itemfrom both the list, then the 1st index item, and so on till the last element. any leftover items willget added at the end of the new list.Given List:
+
+list1 = ["M", "na", "i", "Kh"]
+
+list2 = ["y", "me", "s", "an"]
+
+Output:[['M','y'], ['na', me'], ['i', 's'], ['Kh', 'an']] """
+
+
+list1 = ["M", "na", "i", "Kh"]
+list2 = ["y", "me", "s", "an"]
+list3=[]
+
+for i in list1 and j in l3:
+      l3.append([i,j])
+    
