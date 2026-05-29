@@ -9,6 +9,14 @@ Output:[['M','y'], ['na', me'], ['i', 's'], ['Kh', 'an']] """
 
 list1 = ["M", "na", "i", "Kh"]
 list2 = ["y", "me", "s", "an"]
+"""
+
 list3=[]
-for i,j in (zip(list1,list2))
+for i,j in (zip(list1,list2)):
       list3.append([i,j])
+print(list3)      
+"""
+
+#shortcurt
+list3=[[i,j] for i,j in  (zip(list1,list2)) ]
+print(list3)
