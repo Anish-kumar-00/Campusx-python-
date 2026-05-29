@@ -11,5 +11,5 @@ Output:
 l=['CampusX is a channel', 'for data-science', 'aspirants.']
 l1=[]
 for i in l :
-    l1.extend(i[])
+     
 print(l1)    
