@@ -15,10 +15,12 @@ for i in l:
     for j in i:
         if j.isdigit():
             p=int(j)*p
-    l1.append([i,p])
+    l1.append([p,i])
     l2.append(p)
 #print(l1)        
+
 #print(l2)
+"""
 l2=list(sorted(l2,reverse=True))
 #print(l2)
 for i in l2:
@@ -27,4 +29,9 @@ for i in l2:
             if j[0] not in l3:
               l3.append(j[0])
 print(l3)            
-          
+  """        
+  # short curt
+l2=list(sorted(l1,reverse=True))
+l3=[i[1] for i in l2]
+print(l3)
+  
