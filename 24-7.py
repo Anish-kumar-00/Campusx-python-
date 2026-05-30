@@ -19,4 +19,14 @@ for i in l:
     l2.append(p)
 print(l1)        
 print(l2)
-l3=sorted(l2,reverse=)
+l2=list(sorted(l2,reverse=True))
+print(l2)
+for i in l2:
+    for j in l1:
+        if i==j[1]:
+            k=j[0]
+            if k not in l3:
+                if k not in l3:
+                 l3.append(k)
+print(l3)            
+          
