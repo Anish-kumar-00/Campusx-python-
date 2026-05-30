@@ -11,5 +11,33 @@ Output:
 l=['CampusX is a channel', 'for data-science', 'aspirants.']
 l1=[]
 for i in l :
-     
-print(l1)    
+     s=''
+     for j in i:
+         if j!=' ':
+             s=s+j
+         else :   
+             l1.append(s)
+             s=''
+     l1.append(s)
+print(l1)
+
+""""
+l = ['CampusX is a channel', 'for data-science', 'aspirants.']
+
+l1 = []
+
+for i in l:
+    s = ''
+
+    for j in i:
+        if j != ' ':
+            s += j
+        else:
+            l1.append(s)
+            s = ''
+
+    if s:
+        l1.append(s)
+
+print(l1)
+"""
