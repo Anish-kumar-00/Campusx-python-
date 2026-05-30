@@ -17,16 +17,14 @@ for i in l:
             p=int(j)*p
     l1.append([i,p])
     l2.append(p)
-print(l1)        
-print(l2)
+#print(l1)        
+#print(l2)
 l2=list(sorted(l2,reverse=True))
-print(l2)
+#print(l2)
 for i in l2:
     for j in l1:
         if i==j[1]:
-            k=j[0]
-            if k not in l3:
-                if k not in l3:
-                 l3.append(k)
+            if j[0] not in l3:
+              l3.append(j[0])
 print(l3)            
           
