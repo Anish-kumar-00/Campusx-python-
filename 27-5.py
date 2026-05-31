@@ -1,3 +1,4 @@
+"""
 ###Q5: Shortlist Students for a Job role Ask user to input students record and store in tuples for
 each record. Then Ask user to input three things he wants in the candidate- Primary Skill, Higher
 Education, Year of Graduation.
@@ -22,15 +23,17 @@ Enter Higher Education- B.Tech
 Enter Year of Graduation- 2022
 Output
 ('Manohar', 'B.tech', 'Python', '2022')
-
-i=int(input(Enter no of records:-))
+"""
+i=int(input("Enter no of records:-"))
 l=[]
 for k in  range(i):
-     temp=[]
-     print("Enter Details of student:-",k+1)
-       temp.append(input("Enter student name"))
-       temp.append(input("Enter higher education"))
-       temp.append(input("Enter Prinary skill"))
-       temp.append(input("Enter yea"))
+       temp=[]
+       print("Enter Details of student:-",k+1)
+       temp.append(input("Enter student name:-"))
+       temp.append(input("Enter higher education:-"))
+       temp.append(input("Enter Prinary skill:-"))
+       temp.append(input("Enter year of Graduation:-"))
+       l.append(tuple(temp))
+print(l)       
      
 
