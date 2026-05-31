@@ -8,7 +8,7 @@ Resultant tuple after multiplication :
 output-(5, 40, 91, 136, 80)
 
 """
-l1=[1, 5, 7, 8, 10]
+l1=list(1, 5, 7, 8, 10)
 
 l2=[]
 for i in l1:
