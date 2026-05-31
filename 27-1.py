@@ -16,6 +16,7 @@ for i in l:
     for j in l:
         if i[0]==j[0]:
            temp.append(j[1])
-    l1.append(temp)  
-    l1
+    if(temp not in l1):       
+     l1.append(tuple(temp))  
+    temp=[]
 print(l1)    
