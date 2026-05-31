@@ -12,4 +12,10 @@ Output : [(5, 6, 7, 8), (6, 10), (7, 13)]
 l= [(5, 6), (5, 7), (5, 8), (6, 10), (7, 13)]
 l1=[]
 for i in l:
-    for j 
+    temp=[i[0]]
+    for j in l:
+        if i[0]==j[0]:
+           temp.append(j[1])
+    l1.append(temp)  
+    l1
+print(l1)    
