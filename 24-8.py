@@ -43,9 +43,10 @@ for i in l:
 
 print(l1)
 """
-# finally
+# finally using split function
+
 l=['CampusX is a channel', 'for data-science', 'aspirants.']
-#for i in l :
-  #  l1.append(extend(i.split(' ')))
-l=''
-print()
+l1=[]
+for i in l :
+    l1.extend(i.split(' '))
+print(l1)
