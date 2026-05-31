@@ -26,6 +26,11 @@ Output
 i=int(input(Enter no of records:-))
 l=[]
 for k in  range(i):
-     print(Enter Details of student)
-
+     temp=[]
+     print("Enter Details of student:-",k+1)
+       temp.append(input("Enter student name"))
+       temp.append(input("Enter higher education"))
+       temp.append(input("Enter Prinary skill"))
+       temp.append(input("Enter yea"))
+     
 
