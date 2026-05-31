@@ -7,7 +7,7 @@ Output:
 ['CampusX', 'is', 'a', 'channel', 'for', 'data-science', 'aspirants.']
 
 """
-
+"""
 l=['CampusX is a channel', 'for data-science', 'aspirants.']
 l1=[]
 for i in l :
@@ -20,6 +20,8 @@ for i in l :
              s=''
      l1.append(s)
 print(l1)
+
+"""
 
 """"
 l = ['CampusX is a channel', 'for data-science', 'aspirants.']
@@ -41,3 +43,9 @@ for i in l:
 
 print(l1)
 """
+# finally
+l=['CampusX is a channel', 'for data-science', 'aspirants.']
+#for i in l :
+  #  l1.append(extend(i.split(' ')))
+l=''
+print()
